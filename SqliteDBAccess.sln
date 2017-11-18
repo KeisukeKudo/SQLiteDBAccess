@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqliteDBAccess", "SqliteDBAccess\SqliteDBAccess.csproj", "{B43B6DB9-6F89-4A68-B83A-26303DB9CF31}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication", "ConsoleApplication\ConsoleApplication.csproj", "{DBD22330-7FC1-446D-B05C-0C73D1C42816}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B43B6DB9-6F89-4A68-B83A-26303DB9CF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B43B6DB9-6F89-4A68-B83A-26303DB9CF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B43B6DB9-6F89-4A68-B83A-26303DB9CF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD22330-7FC1-446D-B05C-0C73D1C42816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD22330-7FC1-446D-B05C-0C73D1C42816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD22330-7FC1-446D-B05C-0C73D1C42816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD22330-7FC1-446D-B05C-0C73D1C42816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
