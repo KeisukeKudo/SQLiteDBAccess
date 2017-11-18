@@ -4,7 +4,7 @@ SQLiteのデータベースアクセスユーティリティです｡
 利用には[Dapper](https://github.com/StackExchange/Dapper)､[SQLite.Core](https://www.nuget.org/packages/System.Data.SQLite.Core/)が必要です｡  
 
 ### App.config or Web.config
-```
+```XML
 <?xml version="1.0" encoding="utf-8" ?>
 <configuration>
     <connectionStrings>
@@ -21,6 +21,11 @@ dba.SetParameters("Age", 30);
 ```
 
 ## 使い方
+```C#
+using (var dba = new DBAccess("TestRecord")) {
+    ･･･
+}
+```
 以下のようなテーブル構成を想定
 ```SQL
 CREATE TABLE IF NOT EXISTS employee (
