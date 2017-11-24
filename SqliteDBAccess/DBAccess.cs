@@ -77,6 +77,7 @@ namespace SqliteDBAccess {
                 this.tran?.Commit();
             } catch {
                 this.RollBack();
+                throw;
             }
         }
 
