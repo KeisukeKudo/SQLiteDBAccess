@@ -96,7 +96,8 @@ namespace SqliteDBAccess {
             if (!disposedValue) {
                 if (disposing) {
                 }
-
+                
+                this.RollBack();
                 this.tran?.Dispose();
                 this.ConectinObject?.Close();
                 this.ConectinObject?.Dispose();
